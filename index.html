@@ -1,0 +1,275 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bulma.min.css">
+  <link rel="stylesheet" href="css/libs.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  
+ <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item logo" href="/">
+      <img src="img/i-logo.svg" class="logo__img" alt="">TopMobile <span>Подберем телефон под Ваши нужды</span>
+    </a>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item">
+        Главная
+      </a>
+
+      <a href="/top-10.html" class="navbar-item">
+        Топ 10
+      </a>
+    
+      <a href="/top-10.html" class="navbar-item">
+        Контакты
+      </a>
+    
+     
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-primary jsLoginModalOpen">
+            <strong>Вход</strong>
+          </a>
+          <a class="button is-light jsRegModalOpen">
+            Регистрация
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- start content -->
+<main class="main">
+<!--    start section -->
+
+<section class="section">
+    <div class="container">
+      <h1 class="title">Оцените характеристики</h1>
+      <h2 class="subtitle">
+        Выбранные характеристики <strong>влияют </strong>на рекомендованные Вам телефоны
+      </h2>
+      <div class="section__content">
+      <form action="all.html">
+       <div class="features">
+           <div class="features__item feature">
+           <h2 class="feature__title title is-small">Производитель</h2>   
+            <input class="slider has-output is-size-small is-success jsSlider" min="0" max="10" value="1" step="1" type="range">
+            <output class="output">1</output>  
+           </div>
+           
+           
+           <div class="features__item feature">
+           <h2 class="feature__title title is-small">Диагональ экрана</h2>   
+            <input class="slider has-output is-size-small is-success jsSlider" min="0" max="10" value="1" step="1" type="range">
+            <output class="output">1</output>  
+           </div>
+           
+           
+           <div class="features__item feature">
+           <h2 class="feature__title title is-small">Кол-во ядер</h2>   
+            <input class="slider has-output is-size-small is-success jsSlider" min="0" max="10" value="1" step="1" type="range">
+            <output class="output">1</output>  
+           </div>
+           
+           <div class="features__item feature">
+           <h2 class="feature__title title is-small">Память</h2>   
+            <input class="slider has-output is-size-small is-success jsSlider" min="0" max="10" value="1" step="1" type="range">
+            <output class="output">1</output>  
+           </div>
+           
+           <div class="features__item feature">
+           <h2 class="feature__title title is-small">Камера</h2>   
+            <input class="slider has-output is-size-small is-success jsSlider" min="0" max="10" value="1" step="1" type="range">
+            <output class="output">1</output>  
+           </div>
+           
+           <div class="features__item feature">
+           <h2 class="feature__title title is-small">Емкость аккумулятора</h2>
+            <input  class="slider has-output is-size-small is-success jsSlider" min="0" max="10" value="1" step="1" type="range">
+            <output class="output">1</output>  
+           </div>
+             
+           <div class="features__item feature">
+           <h2 class="feature__title title is-small">Цена</h2>   
+            <input class="slider has-output is-size-small is-success jsSlider" min="0" max="10" value="1" step="1" type="range">
+            <output class="output">1</output>  
+           </div>
+          <div class="features__item is-pd0">
+          <input type="submit" class="button is-success" value="Подтвердить">
+          </div>
+          </div>
+          </form>
+      </div>
+    </div>
+  </section>
+
+<!--    end section -->
+</main>
+<footer class="footer">
+  <div class="content has-text-centered footer__info">
+    <p>
+      <strong>Created</strong> by <a href="https://jgthms.com">Nesterenko</a>.
+    </p>
+  </div>
+</footer>
+<div class="modal jsRegModal">
+  <div class="modal-background"></div>
+  <div class="modal-content">
+    <h3 class="title is-small">Регистрация</h3>
+    
+    
+    <div class="field">
+  <label class="label">Имя</label>
+  <div class="control">
+    <input class="input" type="text" placeholder="Введите имя">
+  </div>
+</div>
+
+<div class="field">
+  <label class="label">Никнейм</label>
+  <div class="control">
+    <input class="input" type="text" placeholder="Введите логин">
+    
+  </div>
+  
+</div>
+
+<div class="field">
+  <label class="label">Почта</label>
+  <div class="control">
+    <input class="input" type="email" placeholder="Введите почту" >
+    
+  </div>
+</div>
+
+
+
+
+<div class="field is-grouped">
+  <div class="control">
+    <button class="button is-link">Вход</button>
+  </div>
+  <div class="control">
+    <button class="button is-text">Отмена</button>
+  </div>
+</div>
+    
+  </div>
+  <button class="modal-close jsModalClose is-large" aria-label="close"></button>
+</div>
+ 
+ 
+  <div class="modal jsLoginModal">
+  <div class="modal-background"></div>
+  <div class="modal-content">
+    <h3 class="title is-small">Вход</h3>
+    
+    
+<div class="field">
+  <label class="label">Никнейм</label>
+  <div class="control">
+    <input class="input" type="text" placeholder="Введите логин">
+    
+  </div>
+  
+</div>
+
+<div class="field">
+  <label class="label">Пароль</label>
+  <div class="control">
+    <input class="input" type="password" placeholder="Введите пароль" >
+    
+  </div>
+</div>
+
+
+
+
+<div class="field is-grouped">
+  <div class="control">
+    <button class="button is-link">Вход</button>
+  </div>
+  <div class="control">
+    <button class="button is-text">Отмена</button>
+  </div>
+</div>
+    
+  </div>
+  <button class="modal-close jsModalClose is-large" aria-label="close"></button>
+</div>
+  <!-- end work -->
+  
+  
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+        $('.jsSlider').on('change', function(){
+            $(this).parent().find('output').text($(this).val());
+            
+    });
+        
+        $('.jsOpenAttr').on('click', function(){
+            $(this).prev().find('li:nth-child(n+2)').slideToggle(300);
+            $(this).addClass('hide');
+        });
+     var  count = 0;
+     $('.phones__item').on('click', function(){
+        $(this).toggleClass('compare');  
+        });
+        
+    $('.jsCompare').on('click', function(){
+            $('.phones__item').not('.compare').addClass('hide');
+            $('.phone__attr').addClass('active');
+            $('.jsOpenAttr').addClass('hide');
+             
+        });
+	$('.navbar-burger').on('click', function(){
+		$(this).parent().next().slideToggle(300);
+	});
+    $('.jsRegModalOpen').on('click', function(){
+        $('.jsRegModal').addClass('is-active'); 
+    });
+$('.jsLoginModalOpen').on('click', function(){
+        $('.jsLoginModal').addClass('is-active'); 
+    });
+$('.jsModalClose').on('click', function() {
+    $(this).parent().removeClass('is-active');
+});
+  </script>
+</body>
+
+</html>
